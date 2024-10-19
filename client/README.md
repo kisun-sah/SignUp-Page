@@ -1,8 +1,43 @@
-# React + Vite
+# MERN Signup Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple user registration (signup) page built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to create accounts by submitting their personal information, which is then stored in a MongoDB database.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- User registration with validation
+- Password hashing for secure storage
+- Responsive UI for an optimal experience on all devices
+- Frontend developed with React
+- Backend API built using Node.js and Express
+- Data stored in MongoDB
+
+
+## Output img 
+![Output](./src/assets/1.png)
+![Output](./src/assets/2.png)
+
+
+
+## Tech Stack
+
+- **Frontend**: React, CSS
+- **Backend**: Node.js, Express
+- **Database**: MongoDB
+- **Authentication**: JWT (JSON Web Token) for secure authentication
+- **Password Hashing**: Bcrypt.js for encrypting passwords
+
+## Installation
+
+### Prerequisites
+
+Before you begin, ensure you have the following installed on your local machine:
+
+- [Node.js](https://nodejs.org/en/)
+- [MongoDB](https://www.mongodb.com/)
+- [Git](https://git-scm.com/)
+
+### Clone the repository
+
+```bash
+git clone https://github.com/kisun-sah/SignUp-Page.git
+cd SignUp-Page
